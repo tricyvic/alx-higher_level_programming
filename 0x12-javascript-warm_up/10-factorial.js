@@ -2,14 +2,14 @@
 const { argv } = require('node:process');
 
 let sum = 1;
-function factor(n){
+function factor (n) {
   if (n === 1) {
     console.log(sum);
   } else {
     sum *= n;
     factor(n - 1);
   }
-};
+}
 
 if (argv[2] > 1) {
   factor(Number(argv[2]));
