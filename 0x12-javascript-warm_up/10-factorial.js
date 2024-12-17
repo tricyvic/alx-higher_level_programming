@@ -10,7 +10,6 @@ function factor (n) {
     factor(n - 1);
   }
 }
-
 if (argv[2] > 1) {
   factor(Number(argv[2]));
 } else {
