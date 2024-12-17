@@ -2,7 +2,7 @@
 const { argv } = require('node:process');
 
 let sum = 1;
-const factor = (n) => {
+function factor(n){
   if (n === 1) {
     console.log(sum);
   } else {
